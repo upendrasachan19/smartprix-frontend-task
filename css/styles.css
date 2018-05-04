@@ -164,7 +164,7 @@ section{
 }
 
 #footer-bar{
-    height: 3em;
+    height: 2em;
     background-color: #3c3c3c;
 }
 
@@ -215,12 +215,12 @@ section{
     color: #1063C8;
 }
 
-.form-inline{
+.search-form{
     width: 100%;
     justify-content: center;
 }
   
-.form-inline #search{
+.search-form #search{
     width: 50%;
     border-radius: 0px;
 }
@@ -252,4 +252,90 @@ section{
 
 .btn-outline-info{
     border-color: #00B0F0;
+}
+
+.subscribe-container{
+    padding: 2em;
+    padding-left: 4em;
+}
+
+.subscribe-container i {
+    margin-right: 0.2em;
+}
+
+.subscribe-container .form-group{
+    margin-left: 0px !important;
+
+}
+
+.form-control{
+    border-radius: 0px;
+}
+
+.social-links{
+    margin-top: 3em;
+}
+
+.fab{
+    transition: color 0.2s;
+}
+
+.fa-facebook-square:hover{
+    color: #3b5998;
+    cursor: pointer;
+}
+.fa-twitter-square:hover{
+    color: #00aced;
+    cursor: pointer;
+}
+.fa-youtube-square:hover{
+    color: #bb0000;
+    cursor: pointer;
+}
+.fa-linkedin:hover{
+    color: #007bb6;
+    cursor: pointer;
+}
+
+.links-container{
+ padding-top: 2em;
+}
+
+.links-container ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links-container li{
+    margin-bottom: 0.5em;
+}
+
+.links-container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+}
+
+.links-container a:hover{
+    color: #00B0F0;
+}
+
+.bottom-fotter{
+    font-size: small;
+    padding-top: 0.3em;
+    color: #a0a0a0;
+}
+
+.bottom-fotter a{
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.bottom-fotter a:hover{
+    color: #00aced
+}
+
+.main-footer{
+    margin-bottom: 2em;
 }
