@@ -1,3 +1,142 @@
+body, html{
+    font-family: 'Raleway', sans-serif;
+    /* background-color: #DFDCD5; */
+}
+
+/* .container{
+    background-color: #fff;
+} */
+
 .category-icon{
     width: 5em;
+}
+
+.categories-container{
+    margin-top: 1em;
+}
+
+.section-header{
+    font-weight: bold;
+    color: #fff;
+    background: #4692F0; 
+    background: -webkit-linear-gradient(to right, #4692F0, #00B0F0); 
+    background: linear-gradient(to right, #4692F0, #00B0F0); 
+    padding: .2em;
+}
+
+.card{
+    border-radius: 0px;
+    border-color: #ababab;
+    
+}
+
+.card-hover{
+    box-shadow: 0;
+    /* transform: translateY(0); */
+    transition: box-shadow 0.2s ease-out;
+}
+
+.card-hover p{
+    color: #4692F0;
+    font-weight: bolder;
+}
+
+.card-hover:hover{
+    /* transform: translateY(-2px); */
+    box-shadow: 2px 2px 2px #a0a0a0;
+    cursor: pointer;
+}
+
+.card-hover:hover p{
+    color: #1063C8;
+}
+
+.product-image, .deal-image{
+    width: 5em !important;
+    margin-top: 1em;
+}
+
+.deal-text{
+    font-size: small;
+}
+
+section{
+    margin-top: 3em;
+}
+
+.product-text{
+    font-size: normal;
+}
+
+.subheading{
+    color: #fff;
+    background-color: #a0a0a0;
+    font-size: 15pt;
+    padding: .3em
+}
+
+.right-sidebar{
+    margin-top: 3em;
+}
+
+.search-tag{
+    font-size: small;
+    background-color: #00B0F0;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.1em 0.5em;
+    margin: 0.5em;
+    margin-left: 0px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.search-tag:hover{
+    background-color: #1063C8;
+}
+
+#comparison{
+    margin-top: 3em;
+    
+}
+
+.heading2{
+    font-weight: bold;
+    color: #fff;
+    padding: 0.3em;
+    background-color: #4692F0;
+    font-size: 13pt;
+}
+
+.single-comparison-container{
+    padding: 0.3em;
+    font-size: 11pt;
+    margin-bottom: 0.5em;
+    transition: background-color 0.2s
+}
+
+.single-comparison-container:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.single-comparison-container img{
+    width: 2em;
+    margin-right: 0.2em;
+}
+
+.single-comparison-container .vs-span{
+    font-style: italic;
+    color: #4692F0;
+    margin-right: 0.2em;
+}
+
+.single-comparison-container .comparison-phone-name{
+    font-weight: bold;
+    color: #1063C8;
+}
+
+footer{
+    margin-top: 3em;
+    background-color: #3c3c3c;
+    color: #fff;
 }
