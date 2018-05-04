@@ -171,3 +171,26 @@ section{
 #main-logo{
     width: 5em;
 }
+
+.phone-fight-container{
+    cursor: pointer;
+}
+
+
+.phone-fight-container img{
+    width: 6em;
+    transition: transform 0.2s;
+}
+
+.phone-fight-container img:hover{
+    transform: translateY(-5px);
+}
+
+.phone-fight-container p{
+    color: #00B0F0;
+}
+
+.phone-fight-container:hover p{
+    color: #1063C8;
+}
+
