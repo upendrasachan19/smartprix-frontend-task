@@ -194,3 +194,19 @@ section{
     color: #1063C8;
 }
 
+.nav span{
+    font-weight: bold;
+    background-color: #00B0F0;
+    color: #fff;
+    font-size: small;
+    /* border:1px solid #00B0F0 */
+}
+/* .nav{
+    background-color: #00B0F0;
+} */
+
+.nav a{
+    color: #00B0F0;
+    font-size: small;
+    border-right: 1px #00B0F0 solid;
+}
