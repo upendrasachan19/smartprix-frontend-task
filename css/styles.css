@@ -52,12 +52,18 @@ body, html{
 .card-hover{
     box-shadow: 0;
     /* transform: translateY(0); */
-    transition: box-shadow 0.2s ease-out;
+    transition-property: box-shadow, opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
 }
 
 .card-hover p{
     color: #4692F0;
     font-weight: bolder;
+}
+
+.card-hover:hover .source-icon{
+    opacity: 1;
 }
 
 .card-hover:hover{
@@ -397,3 +403,22 @@ section{
     font-weight: bold;
     font-size: x-large;
 }
+
+.banner-container{
+    padding: 0px;
+}
+
+.source-icon{
+    width: 3em !important;
+    display: block;
+    margin-top: 0.4em;
+    opacity: 0.5;
+}
+
+/* .hehe{
+    display: flex !important;
+}
+
+.card-hover{
+    flex: 1 !important;
+} */
