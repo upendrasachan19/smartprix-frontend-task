@@ -370,3 +370,30 @@ section{
     font-weight: bold;
     color: #00aced;
 }
+
+#deal-of-the-day{
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+}
+
+#deal-of-the-day .card{
+    background-color: transparent;
+    border: none;
+    padding: 0.5em;
+}
+
+#deal-of-the-day img{
+    width: 10em;
+}
+
+#deal-of-the-day h5{
+    color: #00B0F0;
+    font-weight: bold;
+}
+
+#deal-of-the-day span{
+    color: green;
+    font-weight: bold;
+    font-size: x-large;
+}
